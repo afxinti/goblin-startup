@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url(mountback.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+
+}
+.buffer-top{
+  height: 7rem;
+}
+h1 {
+    margin: 20px auto;
+    max-width:170px;
+    color:#096C67;
+    border: 3px solid #096C67;
+    font-size: 3em;
+    opacity: 1;
+    transition: all 2s;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+.buffer{
+  height: 6rem;
+}
+.words{
+  font-size:3em;
+  color:#FFFFFF;
+}
+
+.btn-primary{
+  border-radius:300px;
+  background-color:#23A09A;
+  border-color: #23A09A;
+}
+
+.btn-primary:hover{
+  background-color:#13948E;
+  border-color: #13948E;
+  border-width: 3px;
+}
+.subs{
+  padding: 1em 1em;
+}
