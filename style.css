@@ -44,6 +44,12 @@ nav{
   font-size:1em;
   margin:0;
 }
+@media only screen and (max-width:500px){
+  .main-nav{
+    font-size: 0.6em;
+    padding:0;
+  }
+}
 li{
   padding:20px;
 }
